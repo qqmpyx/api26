@@ -1,0 +1,68 @@
+
+[2024-05-06 16:56:35] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.1:8000
+[2024-05-06 16:56:35] DEBUG [_make_request: connectionpool.py, 546] http://192.168.55.1:8000 "POST /api/user/login HTTP/1.1" 200 85
+[2024-05-06 16:56:35] INFO [log_case_info: case_log.py, 14] 测试用例：None
+[2024-05-06 16:56:35] INFO [log_case_info: case_log.py, 15] url：http://192.168.55.1:8000/api/user/login
+[2024-05-06 16:56:35] INFO [log_case_info: case_log.py, 16] 请求参数：{ "userName":"admin", "password": "123456", "remember": false }
+[2024-05-06 16:56:35] INFO [log_case_info: case_log.py, 17] 期望结果：用户名或密码错误
+[2024-05-06 16:56:35] INFO [log_case_info: case_log.py, 18] 实际结果：{'code': 402, 'message': '用户名或密码错误', 'response': None}
+[2024-05-06 16:56:35] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.1:8000
+[2024-05-06 16:56:35] DEBUG [_make_request: connectionpool.py, 546] http://192.168.55.1:8000 "POST /api/user/login HTTP/1.1" 200 274
+[2024-05-06 16:56:35] INFO [log_case_info: case_log.py, 14] 测试用例：None
+[2024-05-06 16:56:35] INFO [log_case_info: case_log.py, 15] url：http://192.168.55.1:8000/api/user/login
+[2024-05-06 16:56:35] INFO [log_case_info: case_log.py, 16] 请求参数：{ "userName":"student", "password": "123456", "remember": false }
+[2024-05-06 16:56:35] INFO [log_case_info: case_log.py, 17] 期望结果：成功
+[2024-05-06 16:56:35] INFO [log_case_info: case_log.py, 18] 实际结果：{'code': 1, 'message': '成功', 'response': {'id': None, 'userUuid': None, 'userName': 'student', 'password': None, 'realName': None, 'age': None, 'sex': None, 'birthDay': None, 'userLevel': None, 'phone': None, 'role': None, 'status': None, 'imagePath': 'https://www.mindskip.net:9008/image/ba607a75-83ba-4530-8e23-660b72dc4953/头像.jpg', 'createTime': None, 'modifyTime': None, 'lastActiveTime': None, 'deleted': None, 'wxOpenId': None}}
+[2024-05-06 16:58:46] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.1:8000
+[2024-05-06 16:58:46] DEBUG [_make_request: connectionpool.py, 546] http://192.168.55.1:8000 "POST /api/user/login HTTP/1.1" 200 85
+[2024-05-06 16:58:46] INFO [log_case_info: case_log.py, 14] 测试用例：login_err1
+[2024-05-06 16:58:46] INFO [log_case_info: case_log.py, 15] url：http://192.168.55.1:8000/api/user/login
+[2024-05-06 16:58:46] INFO [log_case_info: case_log.py, 16] 请求参数：{ "userName":"admin", "password": "123456", "remember": false }
+[2024-05-06 16:58:46] INFO [log_case_info: case_log.py, 17] 期望结果：用户名或密码错误
+[2024-05-06 16:58:46] INFO [log_case_info: case_log.py, 18] 实际结果：{'code': 402, 'message': '用户名或密码错误', 'response': None}
+[2024-05-06 16:58:46] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.1:8000
+[2024-05-06 16:58:46] DEBUG [_make_request: connectionpool.py, 546] http://192.168.55.1:8000 "POST /api/user/login HTTP/1.1" 200 274
+[2024-05-06 16:58:46] INFO [log_case_info: case_log.py, 14] 测试用例：login_ok
+[2024-05-06 16:58:46] INFO [log_case_info: case_log.py, 15] url：http://192.168.55.1:8000/api/user/login
+[2024-05-06 16:58:46] INFO [log_case_info: case_log.py, 16] 请求参数：{ "userName":"student", "password": "123456", "remember": false }
+[2024-05-06 16:58:46] INFO [log_case_info: case_log.py, 17] 期望结果：成功
+[2024-05-06 16:58:46] INFO [log_case_info: case_log.py, 18] 实际结果：{'code': 1, 'message': '成功', 'response': {'id': None, 'userUuid': None, 'userName': 'student', 'password': None, 'realName': None, 'age': None, 'sex': None, 'birthDay': None, 'userLevel': None, 'phone': None, 'role': None, 'status': None, 'imagePath': 'https://www.mindskip.net:9008/image/ba607a75-83ba-4530-8e23-660b72dc4953/头像.jpg', 'createTime': None, 'modifyTime': None, 'lastActiveTime': None, 'deleted': None, 'wxOpenId': None}}
+[2024-05-06 16:59:04] DEBUG [query_db: db1.py, 22] select * from t_user where user_name ='student'
+[2024-05-06 16:59:04] DEBUG [query_db: db1.py, 27] (1, 'd2d29da2-dcb3-4013-b874-727626236f47', 'student', 'D1AGFL+Gx37t0NPG4d6biYP5Z31cNbwhK5w1lUeiHB2zagqbk8efYfSjYoh1Z/j1dkiRjHU+b0EpwzCh8IGsksJjzD65ci5LsnodQVf4Uj6D3pwoscXGqmkjjpzvSJbx42swwNTA+QoDU8YLo7JhtbUK2X0qCjFGpd+8eJ5BGvk=', '学生', 18, 1, datetime.datetime(2019, 9, 1, 0, 0), 1, '19171171610', 1, 1, 'https://www.mindskip.net:9008/image/ba607a75-83ba-4530-8e23-660b72dc4953/头像.jpg', datetime.datetime(2019, 9, 7, 18, 55, 2), datetime.datetime(2023, 12, 4, 11, 32, 1), None, b'\x00', None)
+[2024-05-06 16:59:04] DEBUG [query_db: db1.py, 22] select * from t_user where user_name ='student'
+[2024-05-06 16:59:04] DEBUG [query_db: db1.py, 27] (1, 'd2d29da2-dcb3-4013-b874-727626236f47', 'student', 'D1AGFL+Gx37t0NPG4d6biYP5Z31cNbwhK5w1lUeiHB2zagqbk8efYfSjYoh1Z/j1dkiRjHU+b0EpwzCh8IGsksJjzD65ci5LsnodQVf4Uj6D3pwoscXGqmkjjpzvSJbx42swwNTA+QoDU8YLo7JhtbUK2X0qCjFGpd+8eJ5BGvk=', '学生', 18, 1, datetime.datetime(2019, 9, 1, 0, 0), 1, '19171171610', 1, 1, 'https://www.mindskip.net:9008/image/ba607a75-83ba-4530-8e23-660b72dc4953/头像.jpg', datetime.datetime(2019, 9, 7, 18, 55, 2), datetime.datetime(2023, 12, 4, 11, 32, 1), None, b'\x00', None)
+[2024-05-06 16:59:04] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.1:8000
+[2024-05-06 16:59:04] DEBUG [_make_request: connectionpool.py, 546] http://192.168.55.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+[2024-05-06 16:59:04] INFO [log_case_info: case_log.py, 14] 测试用例：reg_err
+[2024-05-06 16:59:04] INFO [log_case_info: case_log.py, 15] url：http://192.168.55.1:8000/api/student/user/register
+[2024-05-06 16:59:04] INFO [log_case_info: case_log.py, 16] 请求参数：{"userName":"student","password":"123456","userLevel":1}
+[2024-05-06 16:59:04] INFO [log_case_info: case_log.py, 17] 期望结果：{"code":2,"message":"用户已存在","response":null}
+[2024-05-06 16:59:04] INFO [log_case_info: case_log.py, 18] 实际结果：{'code': 2, 'message': '用户已存在', 'response': None}
+[2024-05-06 16:59:04] DEBUG [query_db: db1.py, 22] select * from t_user where user_name ='peter'
+[2024-05-06 16:59:04] DEBUG [query_db: db1.py, 27] None
+[2024-05-06 16:59:04] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.1:8000
+[2024-05-06 16:59:04] DEBUG [_make_request: connectionpool.py, 546] http://192.168.55.1:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+[2024-05-06 16:59:04] INFO [log_case_info: case_log.py, 14] 测试用例：reg_ok
+[2024-05-06 16:59:04] INFO [log_case_info: case_log.py, 15] url：http://192.168.55.1:8000/api/student/user/register
+[2024-05-06 16:59:04] INFO [log_case_info: case_log.py, 16] 请求参数：{"userName":"peter","password":"123456","userLevel":1}
+[2024-05-06 16:59:04] INFO [log_case_info: case_log.py, 17] 期望结果：{"code":1,"message":"成功","response":null}
+[2024-05-06 16:59:04] INFO [log_case_info: case_log.py, 18] 实际结果：{'code': 1, 'message': '成功', 'response': None}
+[2024-05-06 16:59:04] DEBUG [query_db: db1.py, 22] select * from t_user where user_name ='peter'
+[2024-05-06 16:59:04] DEBUG [query_db: db1.py, 27] (585, '283170db-492f-4150-bdef-6eafbee2b428', 'peter', 'L3TeFGbhQYCqAuyhme+iuyUx+rVuujgYdWc0WLFzoOdN5k3vafD9R20QrEeJyzCCMHo6BPzsQYtYuiF5I2i4CAkpD+vi0uXNncHNCkkv0u3TZp2npYGjq4qYCFvVGZ5zQTsBH8CKikP/blA6x5NhtBy8RWag8i/UStlmS2f2xT8=', None, None, None, None, 1, None, 1, 1, None, datetime.datetime(2024, 5, 6, 16, 59, 4), None, datetime.datetime(2024, 5, 6, 16, 59, 4), b'\x00', None)
+[2024-05-06 16:59:04] DEBUG [change_db: db1.py, 39] delete from t_user where user_name='peter'
+[2024-05-06 17:02:45] INFO [send_request: basecase.py, 36] post json data
+[2024-05-06 17:02:45] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.1:8000
+[2024-05-06 17:02:45] DEBUG [_make_request: connectionpool.py, 546] http://192.168.55.1:8000 "POST /api/user/login HTTP/1.1" 200 85
+[2024-05-06 17:02:45] INFO [log_case_info: case_log.py, 14] 测试用例：login_err1
+[2024-05-06 17:02:45] INFO [log_case_info: case_log.py, 15] url：http://192.168.55.1:8000/api/user/login
+[2024-05-06 17:02:45] INFO [log_case_info: case_log.py, 16] 请求参数：{ "userName":"admin", "password": "123456", "remember": false }
+[2024-05-06 17:02:45] INFO [log_case_info: case_log.py, 17] 期望结果：用户名或密码错误
+[2024-05-06 17:02:45] INFO [log_case_info: case_log.py, 18] 实际结果：{'code': 402, 'message': '用户名或密码错误', 'response': None}
+[2024-05-06 17:02:45] INFO [send_request: basecase.py, 36] post json data
+[2024-05-06 17:02:45] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.1:8000
+[2024-05-06 17:02:45] DEBUG [_make_request: connectionpool.py, 546] http://192.168.55.1:8000 "POST /api/user/login HTTP/1.1" 200 274
+[2024-05-06 17:02:45] INFO [log_case_info: case_log.py, 14] 测试用例：login_ok
+[2024-05-06 17:02:45] INFO [log_case_info: case_log.py, 15] url：http://192.168.55.1:8000/api/user/login
+[2024-05-06 17:02:45] INFO [log_case_info: case_log.py, 16] 请求参数：{ "userName":"student", "password": "123456", "remember": false }
+[2024-05-06 17:02:45] INFO [log_case_info: case_log.py, 17] 期望结果：成功
+[2024-05-06 17:02:45] INFO [log_case_info: case_log.py, 18] 实际结果：{'code': 1, 'message': '成功', 'response': {'id': None, 'userUuid': None, 'userName': 'student', 'password': None, 'realName': None, 'age': None, 'sex': None, 'birthDay': None, 'userLevel': None, 'phone': None, 'role': None, 'status': None, 'imagePath': 'https://www.mindskip.net:9008/image/ba607a75-83ba-4530-8e23-660b72dc4953/头像.jpg', 'createTime': None, 'modifyTime': None, 'lastActiveTime': None, 'deleted': None, 'wxOpenId': None}}

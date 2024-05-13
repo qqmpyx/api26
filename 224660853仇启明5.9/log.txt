@@ -1,0 +1,13 @@
+DEBUG:root:select * from  t_user where user_name = "student"
+DEBUG:root:((100, '8d291c89-62c2-4d29-9b9f-733263729838', 'student', 'NacdLiJnp4BrzBOAFAsLOkN3kyjKQNhu2BYaKCqa566ED9BWBFkXlmF6M9rBIVA37gfATZrgpDwaudUgPoSHcBVvxCNfv0WMJd6gfTvqHZUSC8wQuLpr3x5clkUsl8zuflFmXVZXxDkKPGQul2L8ENVbWEooiAy3vQ9rxkhU/3Q=', None, None, None, None, 1, None, 1, 1, None, datetime.datetime(2024, 4, 25, 11, 33, 8), None, datetime.datetime(2024, 4, 25, 11, 33, 8), b'\x00', None),)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.24:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.24:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from  t_user where user_name = "peter"
+DEBUG:root:()
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.24:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.24:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from  t_user where user_name = "peter"
+DEBUG:root:((136, 'cbe40972-b6aa-4f6e-b541-d26206e58ab9', 'peter', 'ielB6LKlPGErgdTUXRQ0jHW/HvKnN4ZxVIEwkDZHfYE3r6ldAaTnto85LPrT4VlyLleY9pk1d96mFiMQxuBnw3Bzn5aRIL1RZVDMRGh+qC1pucYr6a46icUNg/Zgbz6Fid1cBZrm1J9iULY1ydA+kHuyvfrOGWedzlnUhn2Ng1k=', None, None, None, None, 1, None, 1, 1, None, datetime.datetime(2024, 4, 28, 16, 13, 20), None, datetime.datetime(2024, 4, 28, 16, 13, 20), b'\x00', None),)
+DEBUG:root:delete from t_user where user_name="peter"
+INFO:root:接口测试
+INFO:root:接口测试

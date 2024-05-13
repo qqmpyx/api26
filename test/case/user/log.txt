@@ -1,0 +1,71 @@
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.24:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.24:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from  t_user where user_name = "peter"
+DEBUG:root:()
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.24:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.24:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:delete from t_user where user_name="peter"
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.24:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.24:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from  t_user where user_name = "peter"
+DEBUG:root:()
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.24:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.24:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:delete from t_user where user_name="peter"
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.24:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.24:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from  t_user where user_name = "peter"
+DEBUG:root:()
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.24:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.24:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:delete from t_user where user_name="peter"
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.24:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.24:8000 "POST /api/user/login HTTP/1.1" 200 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.24:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.24:8000 "POST /api/user/login HTTP/1.1" 200 85
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.24:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.24:8000 "POST /api/user/login HTTP/1.1" 200 85
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.24:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.24:8000 "POST /api/user/login HTTP/1.1" 200 85
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.24:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.24:8000 "POST /api/user/login HTTP/1.1" 200 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.24:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.24:8000 "POST /api/user/login HTTP/1.1" 200 85
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.24:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.24:8000 "POST /api/user/login HTTP/1.1" 200 85
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.24:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.24:8000 "POST /api/user/login HTTP/1.1" 200 85
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.24:8000
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.24:8000
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.24:8000
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.24:8000
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.24:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.24:8000 "POST /api/user/login HTTP/1.1" 200 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.24:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.24:8000 "POST /api/user/login HTTP/1.1" 200 85
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.24:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.24:8000 "POST /api/user/login HTTP/1.1" 200 85
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.24:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.24:8000 "POST /api/user/login HTTP/1.1" 200 85
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.24:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.24:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from  t_user where user_name = "peter"
+DEBUG:root:()
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.24:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.24:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:delete from t_user where user_name="peter"
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.24:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.24:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:select * from  t_user where user_name = "peter"
+DEBUG:root:()
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.24:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.24:8000 "POST /api/student/user/register HTTP/1.1" 200 None
+DEBUG:root:delete from t_user where user_name="peter"
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.24:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.24:8000 "POST /api/user/login HTTP/1.1" 200 196
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.24:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.24:8000 "POST /api/user/login HTTP/1.1" 200 85
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.24:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.24:8000 "POST /api/user/login HTTP/1.1" 200 85
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.55.24:8000
+DEBUG:urllib3.connectionpool:http://192.168.55.24:8000 "POST /api/user/login HTTP/1.1" 200 85
